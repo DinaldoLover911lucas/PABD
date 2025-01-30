@@ -195,12 +195,14 @@ public class TrianguloUI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
         // TODO add your handling code here:
+        
     }//GEN-LAST:event_jTextField4ActionPerformed
 
     private void calcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_calcActionPerformed
@@ -224,6 +226,8 @@ public class TrianguloUI extends javax.swing.JFrame {
             }
         } else tipoLabel.setText("Não é um triangulo!");
       
+         
+         
       //magica
       
       
