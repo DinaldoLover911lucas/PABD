@@ -4,6 +4,8 @@
  */
 package ui_3inf2v;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author 20221074010066
@@ -226,7 +228,23 @@ public class TrianguloUI extends javax.swing.JFrame {
             }
         } else tipoLabel.setText("Não é um triangulo!");
       
+         if (jTextField1.getText().equals("")
+                 ||jTextField2.getText().equals("")
+                 ||jTextField3.getText().equals("")) {
+            
+        };
+         JOptionPane.showConfirmDialog(
+                 null,
+                 "preencha todos os dados",
+                 "ERRO",
+                JOptionPane.ERROR_MESSAGE
+                 
+                 
+                 
+         );
          
+         
+    
          
       //magica
       
